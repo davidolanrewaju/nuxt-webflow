@@ -25,7 +25,7 @@
 
 <template>
   <div role="listitem" class="product w-dyn-item w-col w-col-3">
-    <a :href="productLink" class="link-block w-inline-block">
+    <NuxtLink :to="`/product/${productTitle}`" class="link-block w-inline-block">
       <img :alt="productTitle" :src="productImage" />
       <div class="productinfo">
         <div class="productinfo_title">{{ productTitle }}</div>
@@ -34,6 +34,6 @@
           <div class="pricewas" v-if="priceWas">{{ priceWas }}</div>
         </div>
       </div>
-    </a>
+    </NuxtLink>
   </div>
 </template>
