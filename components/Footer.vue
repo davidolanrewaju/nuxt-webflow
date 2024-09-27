@@ -1,9 +1,9 @@
 <template>
   <div class="footer">
     <div class="footer_brand">
-      <a href="#" class="brand w-nav-brand">
+      <NuxtLink to="/" class="brand w-nav-brand">
         <h1 class="logo footer_logo">MODULAR</h1>
-      </a>
+      </NuxtLink>
     </div>
     <div class="footer_nav">
       <a href="#" class="footer_nav_links w-inline-block">

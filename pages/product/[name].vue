@@ -7,7 +7,7 @@
 
 <template>
   <div>
-    <ProductDetail :productTitle="product.title" :productImage="`${product.image}`" :priceNow="product.priceNow" :productDescription="product.description" />
+    <ProductDetail :productTitle="product.title" :productImage="`${product.image}`" :priceNow="product.priceNow" :productDescription="product.description" :productSize="product.size" />
     <Subscribe />
   </div>
 </template>
